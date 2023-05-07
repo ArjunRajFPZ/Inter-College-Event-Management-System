@@ -1,0 +1,49 @@
+// If you want to override variables do it here
+@import "variables";
+
+$enable-ltr: true;
+$enable-rtl: true;
+
+// Import CoreUI for React components library
+@import "@coreui/coreui/scss/coreui";
+
+// Import Chart.js custom tooltips styles
+@import "@coreui/chartjs/scss/coreui-chartjs";
+
+@import "layout";
+@import "example";
+
+// If you want to add custom CSS you can put it here.
+@import "custom";
+
+.ml-2{
+    margin-left: 1rem;
+}
+
+.pointer{
+    cursor: pointer;
+}
+
+.app-name{
+    font-size: 1.5rem;
+    font-weight: bolder;
+}
+
+.dash-name{
+    font-size: 2rem;
+    font-weight: bolder;
+}
+.carousel-style{
+    padding-top: 1%;
+    margin-left: 351px;
+    margin-right: 300px;
+}
+
+.cards-style{
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.card-name{
+    margin-left: 16px;
+}
