@@ -1,7 +1,7 @@
 import React from 'react'
 import CIcon from '@coreui/icons-react'
 import {
-  cilNewspaper,
+  cilNewspaper,cilHouse,
   cilLocationPin,
   cilSchool,cilUser,cilCalendarCheck
 } from '@coreui/icons'
@@ -87,7 +87,7 @@ const _nav = [
     component: CNavItem,
     name: 'Home',
     to: '/home',
-    icon: <CIcon customClassName="nav-icon" />,
+    icon: <CIcon icon={cilHouse} customClassName="nav-icon" />,
   },
 ]
 
